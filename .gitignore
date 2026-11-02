@@ -1,0 +1,16 @@
+# Never commit secrets or originals
+.env
+*.key
+*.pem
+secrets*
+config.private.*
+/private/
+/originals/
+*.dwg
+*.rvt
+*.pln
+*.skp
+*.psd
+*.zip
+.DS_Store
+Thumbs.db
